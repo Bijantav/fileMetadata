@@ -1,0 +1,217 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\vieww20220\viewh13740\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs50 \cf0 CamTwist\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\b0\fs24 \cf0 Steve Green <steveg@allocinit.com>\
+http://camtwiststudio.com/\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\b\fs50 \cf0 Easy Install
+\b0\fs24 \
+The easiest way to install CamTwist is to double click the installer package.  The installer package will put CamTwist.plugin in /Library/CoreMediaIO/Plug-Ins/DAL and the CamTwist application folder in /Applications.\
+\
+
+\b\fs50 Manual Install
+\b0\fs24 \
+The only installation requirement is the CoreMedia plugin.  The plugin can be placed in /Library/CoreMediaIO/Plug-Ins/DAL or in ~/Library/CoreMediaIO/Plug-Ins/DAL.  The CamTwist application folder can be installed anywhere.\
+\
+
+\b\fs50 Credits and Honorable Mentions
+\b0\fs24 \
+QuartzComposer effects from Qarl\
+QuartzComposer effects from Sam Kass\
+Beta Tester Miguel "iGago" Barrera\
+iTunes effect concept and beta tester Julie "Armored" Wilson\
+Artwork from Chris Reichert\
+Artwork from Mark Delfs\
+Brightness effect from Jethro Yates <thebluenowhere@gmail.com>\
+Feedback, bug reports and improvement ideas from Stefan Nowak\
+Beta Tester Lee Grosbauer\
+MBS Inc (http://www.mbsdirect.com)\
+\
+
+\b\fs50 Change Log
+\b0\fs24 \
+3.4\
+o  Fixes for HighSierra\
+o  Fixes for FCP crash and Google Hangouts crash\
+o  HTML support\
+\
+3.2\
+o  Few minor bug fixes\
+\
+3.1 \
+o  Yosemite or greater\
+o  Few minor bug fixes\
+o  Fix for Twitter timeline\
+\
+3.0\
+o  Mountain Lion or greater.\
+o  64 bit.\
+o  CoreMediaIO plugin.\
+o  Revamped Studio Applescript interface.\
+o  Desktop using DisplayStream API for Mountain Lion or better.\
+o  MIDI support.\
+o  Movie shuffle.\
+o  Hot folder for Movie source.\
+o  Snapshot menu.\
+o  Uses native Twitter account for Twitter based effects.\
+\
+2.3\
+o  Fix for bug is slide show save/load\
+o  Fix for Lion performance in slide show source\
+o  Fix for alternate screen capture bug\
+o  RollText effect from Wolfgang Herget <camtwist@wolfgangherget.de>\
+o  Fix for Desktop multi-screen follow mouse bug.\
+o  Fix for Slide Show not recognizing jpegs.\
+o  Fix for new studio buttons covering other buttons.\
+\
+2.2\
+o  Fix for iTunes effect flicker problem.\
+o  New "Enabled" AppleScript property on Effect objects.\
+o  Quickly create show movies and images by dragging files into the effects list.\
+o  Movie Source aspect ratio bug fixed.\
+o  Follow Mouse mode for Desktop source.\
+o  Full Screen name localization bug fixed.\
+o  Fix for detecting the end of some movies.\
+o  Fix for Telestrator in non 4:3 video.\
+o  Dedicated window for Telestrator\
+o  Fix for new Weatherbug protocol\
+o  New Weatherbug icon features.\
+o  Remember Studio position and swap mode setting.\
+o  Special handling for Safari in the exlusions list.\
+o  Press esc to exit full screen mode (when on main display).\
+o  Resizable preview window (up to configured resolution).\
+o  IRC Effect UTF-8 support.\
+o  Mirror image option for preview window and Studio monitors.\
+o  Ability to hide movie video when movie isn't playing (for PIP).\
+o  Show album in iTunes effect\
+o  "Duplicate Button" context menu option.\
+o  Movie source in and out points.\
+o  Movie source muted in preview option.\
+o  Time stops (some things won't animate) in Peview.  Please send feedback.\
+o  iPhoto support in Slide Show\
+o  VNC client source\
+o  Fixes for Lion\
+\
+2.1\
+o  Telestrator resize bug fixed.\
+o  IRC effect settable nick colors.\
+o  IRC effect settings panel resize bug fixed.\
+o  No visiable "Done" button on Desktop selection.\
+o  Fixes for 10.6 Snow Leopard.\
+o  PIP crop bug fixed.\
+\
+2.0\
+o  Leopard (10.5.x) ONLY.\
+o  Performance improvments.\
+o  Window grab for Desktop source.\
+o  New effect format now compatible with most iChat and PhotoBooth formats.\
+o  WeatherBug Celcius display bug fixed.\
+o  New controls for iTunes effect.\
+o  Full screen preview option.\
+o  'Show Pointer' option in telestrator.\
+o  'Pause' option for scrolling text.\
+o  Better text shadows.\
+o  New application icon (Mark Delfs <mdelfs@gmail.com>)\
+o  Justification setting for Text effect.\
+o  Automation/Timeline feature.\
+o  Telestrator load/save.\
+o  More Telestrator colors.\
+o  Show mouse option in Desktop source.\
+o  Fix for problem with QuickTime Broadcaster\
+o  Saved setup manager.\
+o  PIP Border and cropping.\
+o  Studio redesign.\
+o  Integrated IRC effect\
+\
+1.7\
+o  Fix for crash on empty saved setup.\
+o  Flickr source.\
+o  Fix for DV interlaced video.\
+o  More AppleScript support.\
+o  ChromaZoom effect from Alex Drinkwater (www.toneburst.net)\
+o  User menu with keyboard shortcuts.\
+o  Fix for crash when starting the webcam on certain systems.\
+o  Numerical entry for slider adjustments.\
+o  Fix for desktop source screen selection.\
+o  Initial release of CamTwist Studio.\
+o  Fix for Frame Rate bug.\
+o  Fix for broken Auto Update feature.. sorry folks.\
+\
+1.6\
+o  Fix for broken "Performance improvments for Dekstop video".\
+o  Save preview window location.\
+o  Fix for Font Size slider missing on 10.5 Leopard.\
+o  Fix for movie playlist play button.\
+o  Fix for broken RSS Ticker and Countdown effects on 10.5 Leopard.\
+o  New RSS Ticker setting for refresh time (10.5).\
+o  Auto update feature.\
+\
+1.5\
+o  "Clear" background option for PIPs\
+o  PIP swap with live video\
+o  VERY experimental AppleScript support.\
+o  Added the ability to rename effects in use.\
+o  Enabled transparency for the color pickers.\
+o  Audio output device pref (for movies, so far).\
+o  Msa_FrostedGlass effect from Mehmet Akten <memo@memo.tv>\
+o  Msa_badtv effect from Mehmet Akten <memo@memo.tv>\
+o  WeatherBug effect\
+o  Fix for Animated GIF problem on 10.5\
+o  Performance improvments for Dekstop video\
+o  New Movie source play options\
+\
+1.4\
+o  Better support for selecting which camera to use\
+o  RSS ticker effect\
+o  Spotlight effect\
+o  Minor bugs fixed\
+o  Halo effect\
+o  Zoom effect\
+o  Fine grained controls for moving objects around\
+o  Added ability to stage/preview an effect chain before pushing it live.\
+o  Better multi-screen support for Desktop video\
+o  Animated gif support\
+o  Countdown effect\
+o  Picture-in-picture (PIP)\
+\
+1.3\
+o  Frame rate setting\
+o  Matrix effect\
+o  Flame effect\
+o  Objective-C effect plugin example source code\
+o  More flexible exclusion/inclusion prefs\
+o  New X,Y position control\
+o  Pref for not loading the CamTwist driver into video apps unless CamTwist is running.\
+\
+1.2\
+o  Brightness effect from Jethro Yates <thebluenowhere@gmail.com>.\
+o  Fixed a bug with colorspace matching that resulted in tinted video.\
+o  Preference window now allows you to manage a list of applications where CamTwist isn't wanted.\
+	Photo Booth and system preferences are populated by default.\
+o  Support for saving partial and complete setups.\
+o  Multiple bugs fixed with Desktop source.\
+o  Resolution problem fixed for DV video.\
+o  Movie source play list.\
+o  Movie source volume control.\
+o  Effect refresh menu.\
+o  Preview window.\
+\
+1.1\
+o  Auto clear option for slide show\
+o  Cam Twist will no longer attempt to load in Photo Booth\
+o  Sobel effect now has a color setting\
+o  Image Overlay effect\
+o  Simple Clock effect\
+o  Massive memory leak closed with Desktop video\
+o  Movie video source\
+\
+1.0 - Initial release}
